@@ -27,3 +27,9 @@ body {
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
 }
+
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 768px;
+  }
+}

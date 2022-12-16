@@ -6,3 +6,10 @@
   min-width: 656px;
   pointer-events: none;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__content {
+    top: 246px;
+    left: 56px;
+  }
+}

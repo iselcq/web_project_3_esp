@@ -1,7 +1,15 @@
 .place__paragraph {
-  line-height: 29px;
+  line-height: 163%;
   font-size: 18px;
   font-weight: 400;
   margin-top: 0;
+  margin-bottom: 0;
   /* max-width: 484px; */
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
 }

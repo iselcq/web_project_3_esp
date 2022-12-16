@@ -1,6 +1,6 @@
 .place__button {
   background-color: #0278fe;
-  /* max-width: 355px; */
+
   border-radius: 4px;
   color: #fff;
   font-family: "Inter";
@@ -16,4 +16,11 @@
   cursor: pointer;
   background-color: #0063d2;
   border: solid 4px #0063d2;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__button {
+    width: 355px;
+    overflow: visible;
+  }
 }

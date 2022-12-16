@@ -7,5 +7,14 @@
   /* max-width: 584px; */
   /* height: 152px; */
   text-align: left;
+  margin-top: 0;
   /* overflow-x: visible; */
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title {
+    line-height: 46px;
+    font-size: 42px;
+    font-weight: 900;
+  }
 }

@@ -1,9 +1,17 @@
 .cover__image {
-  max-height: 740px;
+  max-width: 1184px;
   opacity: 70%;
 }
 
 .cover__image:hover {
   opacity: 20%;
   transition: 0.25s ease-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__image {
+    width: 768px;
+    min-height: 746px;
+    object-fit: cover;
+  }
 }

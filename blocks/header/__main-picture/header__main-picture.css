@@ -4,3 +4,10 @@
   filter: grayscale(1);
   margin-top: 64px;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__main-picture {
+    margin-top: 69px;
+    max-width: 768px;
+  }
+}

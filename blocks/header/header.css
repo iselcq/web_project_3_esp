@@ -4,3 +4,9 @@
   flex-direction: column;
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    margin-bottom: 55px;
+  }
+}

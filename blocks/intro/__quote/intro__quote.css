@@ -8,3 +8,9 @@
   margin-bottom: 0px;
   justify-content: left;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__quote {
+    margin-top: 15px;
+  }
+}
