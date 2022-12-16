@@ -1,0 +1,12 @@
+.place__website_heading {
+  line-height: 14.52px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  /* max-width: 58px; */
+  height: 15px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}

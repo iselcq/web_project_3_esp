@@ -1,0 +1,6 @@
+.header__main-picture {
+  max-width: 984px;
+  /* height: 615px; */
+  filter: grayscale(1);
+  margin-top: 64px;
+}

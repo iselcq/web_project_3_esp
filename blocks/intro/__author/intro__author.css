@@ -1,0 +1,9 @@
+.intro__author {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 720px;
+  /* height: 34px; */
+  text-align: right;
+  margin-top: -24px;
+}

@@ -1,0 +1,8 @@
+.cover__content {
+  position: absolute;
+  top: 243px;
+  left: 264px;
+  text-align: center;
+  min-width: 656px;
+  pointer-events: none;
+}

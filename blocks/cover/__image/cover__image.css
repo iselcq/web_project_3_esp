@@ -1,0 +1,9 @@
+.cover__image {
+  max-height: 740px;
+  opacity: 70%;
+}
+
+.cover__image:hover {
+  opacity: 20%;
+  transition: 0.25s ease-out;
+}
