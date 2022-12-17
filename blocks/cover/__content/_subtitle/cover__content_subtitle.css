@@ -9,3 +9,11 @@
   margin-right: auto;
   margin-bottom: 0px;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__content_subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+}

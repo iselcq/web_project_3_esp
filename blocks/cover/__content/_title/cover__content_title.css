@@ -13,3 +13,10 @@
     line-height: 163%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover__content_title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

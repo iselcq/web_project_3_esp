@@ -19,3 +19,9 @@
   border: solid 4px #0063d2;
   transition: 0.25s ease-out;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__content_button {
+    margin-top: 16px;
+  }
+}
