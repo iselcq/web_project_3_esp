@@ -14,3 +14,9 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .intro__author {
+    margin-right: 16px;
+  }
+}
