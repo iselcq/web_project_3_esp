@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 767px) {
   .place__button {
-    width: 288px;
+    width: 246px;
     grid-column-end: 2;
     font-size: 14px;
     line-height: 17px;
