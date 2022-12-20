@@ -1,8 +1,9 @@
 .place__button {
   grid-area: button;
-}
-
-.place__button button {
+  overflow: visible;
+  text-decoration: none;
+  grid-column-end: 3;
+  text-align: center;
   background-color: #0278fe;
   border-radius: 4px;
   color: #fff;
@@ -10,27 +11,34 @@
   line-height: 22px;
   font-size: 18px;
   font-weight: 600;
-  padding: 20px 13px;
+  padding: 13px 20px;
   margin-top: 0;
-  border: solid 4px #0278fe;
+  border: solid 1px #0278fe;
+  pointer-events: auto;
+  height: fit-content;
+  width: fit-content;
 }
 
-.place__button button:hover {
+.place__button :visited {
+  color: #fff;
+}
+
+.place__button:hover {
   cursor: pointer;
   background-color: #0063d2;
-  border: solid 4px #0063d2;
+  border: solid 1px #0063d2;
 }
 
-@media screen and (max-width: 1279px) {
-  .place__button button {
+/* @media screen and (max-width: 1279px) {
+  .place__button {
     width: 355px;
-    overflow: visible;
   }
-}
+} */
 
 @media screen and (max-width: 767px) {
-  .place__button button {
+  .place__button {
     width: 288px;
+    grid-column-end: 2;
     font-size: 14px;
     line-height: 17px;
     padding: 21px 16px;

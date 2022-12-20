@@ -1,22 +1,27 @@
 .cover__content_button {
+  text-decoration: none;
+  display: block;
+  max-width: fit-content;
   background-color: #0278fe;
-  /* max-width: 355px; */
   color: #fff;
   font-family: "Inter";
-  line-height: 22px;
+  /* line-height: 22px; */
   font-size: 18px;
   font-weight: 600;
   padding: 13px 20px;
-  margin-top: 32px;
-  border: solid 4px #0278fe;
-  /* gap: 10px; */
+  border: solid 1px #0278fe;
+  border-radius: 4px;
   pointer-events: auto;
+  margin: 32px auto 0;
+}
+
+.cover__content_button:visited {
+  color: #fff;
 }
 
 .cover__content_button:hover {
-  cursor: pointer;
   background-color: #0063d2;
-  border: solid 4px #0063d2;
+  border: solid 1px #0063d2;
   transition: 0.25s ease-out;
 }
 
