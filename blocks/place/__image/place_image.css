@@ -3,8 +3,9 @@
 }
 
 .place__image img {
-  max-width: 100%;
+  width: 100%;
 }
+
 /* 
 @media screen and (max-width: 767px) {
   .place__image {

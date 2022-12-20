@@ -5,14 +5,14 @@
     "title website"
     "image text"
     "button text";
-  /* grid-template-columns: 460px 484px; */
+  grid-template-columns: 460px 484px;
   row-gap: 48px;
   column-gap: 40px;
   margin-top: 0;
   margin-bottom: 80px;
 }
 
-p {
+.place p {
   margin: 0;
 }
 
