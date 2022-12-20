@@ -1,3 +1,16 @@
-.place__title_long br {
+.place__title_long {
   display: block;
+  grid-column-end: 3;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title_long {
+    grid-column-end: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title_long {
+    padding-right: 15px;
+  }
 }
