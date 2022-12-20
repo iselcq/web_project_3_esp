@@ -1,11 +1,19 @@
 .place {
   /* width: 984px; */
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-areas:
+    "title website"
+    "image text"
+    "button text";
+  /* grid-template-columns: 460px 484px; */
   row-gap: 48px;
   column-gap: 40px;
   margin-top: 0;
   margin-bottom: 80px;
+}
+
+p {
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -17,7 +25,9 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: 320px;
-    row-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "website" "image" "text" "button";
+    gap: 0;
+    margin-bottom: 0;
   }
 }

@@ -22,10 +22,7 @@
 @import url("../blocks/place/__website/_heading/place__website_heading.css");
 @import url("../blocks/place/__image/place_image.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
-@import url("../blocks/place/__paragraph/_separation/place__paragraph_separation_kiev.css");
-@import url("../blocks/place/__paragraph/_separation/place__paragraph_separation_criccieth.css");
-@import url("../blocks/place/__paragraph/_separation/place__paragraph_separation_berea.css");
-@import url("../blocks/place/__paragraph/_separation/place__paragraph_separation_muramvya.css");
+@import url("../blocks/place/__paragraph/_separation/place__paragraph_separation.css");
 @import url("../blocks/place/__button/place__button.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__content/_title/cover__content_title.css");

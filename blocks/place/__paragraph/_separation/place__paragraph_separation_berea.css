@@ -1,9 +1,0 @@
-.place__paragraph_separation_berea {
-  margin-bottom: 17px;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__paragraph_separation_berea {
-    margin-bottom: 20px;
-  }
-}

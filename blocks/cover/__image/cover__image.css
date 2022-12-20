@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1279px) {
   .cover__image {
-    width: 768px;
+    max-width: 768px;
     min-height: 746px;
     object-fit: cover;
   }
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 767px) {
   .cover__image {
-    width: 320px;
+    max-width: 320px;
     min-height: 254px;
   }
 }

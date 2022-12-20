@@ -1,6 +1,9 @@
 .place__button {
-  background-color: #0278fe;
+  grid-area: button;
+}
 
+.place__button button {
+  background-color: #0278fe;
   border-radius: 4px;
   color: #fff;
   font-family: "Inter";
@@ -8,19 +11,32 @@
   font-size: 18px;
   font-weight: 600;
   padding: 20px 13px;
-  margin-top: 48px;
+  margin-top: 0;
   border: solid 4px #0278fe;
 }
 
-.place__button:hover {
+.place__button button:hover {
   cursor: pointer;
   background-color: #0063d2;
   border: solid 4px #0063d2;
 }
 
 @media screen and (max-width: 1279px) {
-  .place__button {
+  .place__button button {
     width: 355px;
     overflow: visible;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__button button {
+    width: 288px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 21px 16px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
   }
 }

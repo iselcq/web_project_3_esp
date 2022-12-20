@@ -1,7 +1,8 @@
 .place__website {
   /* max-width: 456px; */
   /* height: 45px; */
-  margin-bottom: 0;
+  grid-area: website;
+  /* margin-bottom: 0; */
   margin-left: 0;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,16 @@
+.place__paragraph_separation {
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph_separation {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph_separation {
+    margin-bottom: 7px;
+  }
+}
