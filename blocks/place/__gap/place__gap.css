@@ -1,15 +1,15 @@
-.place__paragraph_separation {
+.place__gap {
   margin-bottom: 25px;
 }
 
 @media screen and (max-width: 1279px) {
-  .place__paragraph_separation {
+  .place__gap {
     margin-bottom: 14px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place__paragraph_separation {
+  .place__gap {
     margin-bottom: 7px;
   }
 }

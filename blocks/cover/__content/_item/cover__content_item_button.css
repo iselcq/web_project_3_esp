@@ -1,4 +1,4 @@
-.cover__content_button {
+.cover__content_item_button {
   text-decoration: none;
   display: block;
   max-width: fit-content;
@@ -15,18 +15,18 @@
   margin: 32px auto 0;
 }
 
-.cover__content_button:visited {
+.cover__content_item_button:visited {
   color: #fff;
 }
 
-.cover__content_button:hover {
+.cover__content_item_button:hover {
   background-color: #0063d2;
   border: solid 1px #0063d2;
   transition: 0.25s ease-out;
 }
 
 @media screen and (max-width: 767px) {
-  .cover__content_button {
+  .cover__content_item_button {
     margin-top: 16px;
   }
 }
