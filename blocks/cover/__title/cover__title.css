@@ -1,4 +1,4 @@
-.cover__content_item_title {
+.cover__title {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .covver__content_item_title {
+  .covver__title {
     font-size: 16px;
     line-height: 163%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cover__content_item_title {
+  .cover__itle {
     font-size: 32px;
     line-height: 35px;
   }

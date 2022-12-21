@@ -1,11 +1,11 @@
-.cover__content_item_button {
+.cover__button {
   text-decoration: none;
   display: block;
   max-width: fit-content;
   background-color: #0278fe;
   color: #fff;
   font-family: "Inter";
-  /* line-height: 22px; */
+  line-height: 22px;
   font-size: 18px;
   font-weight: 600;
   padding: 13px 20px;
@@ -15,18 +15,18 @@
   margin: 32px auto 0;
 }
 
-.cover__content_item_button:visited {
+/* .cover__content_item_button:visited {
   color: #fff;
-}
+} */
 
-.cover__content_item_button:hover {
+.cover__button:hover {
   background-color: #0063d2;
   border: solid 1px #0063d2;
   transition: 0.25s ease-out;
 }
 
 @media screen and (max-width: 767px) {
-  .cover__content_item_button {
+  .cover__button {
     margin-top: 16px;
   }
 }

@@ -1,4 +1,4 @@
-.cover__content_item_subtitle {
+.cover__subtitle {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -10,12 +10,12 @@
   margin-bottom: 0px;
 }
 
-.cover__content_item_subtitle:last-of-type {
+.cover__subtitle:last-of-type {
   margin-top: 0px;
 }
 
 @media screen and (max-width: 767px) {
-  .cover__content_item_subtitle {
+  .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
     margin-top: 16px;
